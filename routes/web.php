@@ -38,12 +38,10 @@ Route::get('/Manufacturing', function () {
     return view('Manufacturing/addRecipe');
 });
 
-
-Auth::routes();
-
-
-
+Route::get('/Purchases', function () {
+    return view('Purchases/Viewpurchase');
+});
 
 
- 
+
 
